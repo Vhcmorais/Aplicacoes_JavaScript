@@ -7,7 +7,7 @@
 
 body {
     background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,19 +29,23 @@ body::before {
     width: 80%;
     min-height: 50vh;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     border-radius: 24px;
     border: 1px solid #1875E8;
     box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
     background-image: url("img/Ruido.png");
-    background-size: 100% 100%;
+    background-size: cover;
     position: relative;
     overflow: hidden;
+    padding: 2rem;
+    gap: 1rem;
 }
 
 .container__conteudo {
     display: flex;
+    flex: 1;
     align-items: center;
     position: relative;
     width: 100%;
@@ -49,7 +53,7 @@ body::before {
 
 .container__informacoes {
     flex: 1;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .container__texto {
@@ -61,7 +65,6 @@ body::before {
 .container__texto-azul {
     color: #1875E8;
     display: block;
-
 }
 
 .container__campo {
@@ -69,17 +72,19 @@ body::before {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 12px;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .container__input {
-    width: 130px;
-    height: 72px;
+    width: clamp(100px, 20vw, 200px);
+    height: clamp(50px, 8vh, 80px);
     border-radius: 16px;
     background-color: #FFF;
     border: none;
     color: #1875E8;
-    padding: 2rem;
-    font-size: 24px;
+    padding: 1.5rem;
+    font-size: clamp(1rem, 2vw, 1.5rem);
     font-weight: 700;
     font-family: 'Inter', sans-serif;
 }
@@ -88,14 +93,16 @@ body::before {
     display: flex;
     flex-direction: row;
     gap: 1em;
+    flex-wrap: wrap;
 }
 
 .container__botao {
     border-radius: 16px;
     background: #1875E8;
     padding: 16px 24px;
-    font-size: 24px;
-    width: 100%;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    flex: 1;
+    min-width: 150px;
     font-weight: 700;
     border: none;
     cursor: pointer;
@@ -105,8 +112,9 @@ body::before {
     border-radius: 16px;
     background: #6f6f70;
     padding: 16px 24px;
-    font-size: 24px;
-    width: 100%;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    flex: 1;
+    min-width: 150px;
     font-weight: 700;
     border: none;
     cursor: not-allowed;
@@ -114,20 +122,18 @@ body::before {
 
 h1 {
     font-family: 'Chakra Petch', sans-serif;
-    font-size: 72px;
-    font-style: normal;
+    font-size: clamp(2rem, 5vw, 4.5rem); /* Responsivo */
     font-weight: 700;
-    line-height: 100%;
-    padding: 2rem;
+    line-height: 1.2;
+    padding: 1rem 0;
 }
 
 .texto__paragrafo {
     color: #FFF;
-    font-family: 'Inter';
-    font-size: 32px;
-    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(1rem, 2vw, 2rem);
     font-weight: 400;
-    line-height: normal;
+    line-height: 1.5;
 }
 
 .container__imagem-pessoa {
@@ -140,12 +146,48 @@ button:disabled {
     background-color: gray;
 }
 
+/* ======== MEDIA QUERIES ======== */
+
+/* até 1250px → esconde imagem */
 @media screen and (max-width: 1250px) {
     .container__imagem-pessoa {
         display: none;
     }
+}
+
+/* Tablets (até 992px) */
+@media screen and (max-width: 992px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container__botoes {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container__botao,
+    .container__botao-desabilitado {
+        width: 100%;
+    }
+}
+
+/* Celulares (até 576px) */
+@media screen and (max-width: 576px) {
+    .container__informacoes {
+        padding: 1rem;
+    }
 
     h1 {
-        font-size: 50px;
+        font-size: clamp(1.5rem, 6vw, 2rem);
+    }
+
+    .texto__paragrafo {
+        font-size: clamp(0.9rem, 4vw, 1.2rem);
+    }
+
+    .container__input {
+        width: 100%;
     }
 }
