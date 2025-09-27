@@ -28,3 +28,14 @@ de números dentro de um intervalo.
 A aplicação Alugames foi desenvolvida com o intuito de desenvolvimento de um sistema de locação e devolução de jogos de tabuleiro.
 
 A seguir, confira algumas imagens do sistema desenvolvido usando a linguagem de marcação HTML, a linguagem de estilização CSS e a linguagem de programação JavaScript:
+
+<p align="center">
+  <img src="imagens/alugames_aluguel.png" alt="" width="600px"/>
+</p>
+<p align="center">
+  <img src="imagens/alugames_alugado.png" alt="" width="600px"/>
+</p>
+<p align="center">
+  <img src="imagens/alugames_devolucao.png" alt="" width="600px"/>
+</p>
+
