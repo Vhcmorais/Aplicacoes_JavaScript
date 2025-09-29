@@ -52,7 +52,12 @@ Sistema de **locação e devolução de jogos de tabuleiro**, desenvolvido em **
 
 Sistema de **sorteio de amigo secreto**, no qual os nomes são inseridos e o programa sorteia os pares automaticamente.  
 
-*(Imagens da aplicação podem ser adicionadas aqui futuramente)*
+<p align="center">
+  <img src="imagens/amigo_secreto.png" alt="Sorteador tela" width="600px"/>
+</p>
+<p align="center">
+  <img src="imagens/amigo_sorteio.png" alt="Amigos Sorteados" width="600px"/>
+</p>
 
 ---
 
@@ -60,7 +65,12 @@ Sistema de **sorteio de amigo secreto**, no qual os nomes são inseridos e o pro
 
 Sistema de **carrinho de compras**, responsável por calcular o número de itens e o valor total da compra.  
 
-*(Imagens da aplicação podem ser adicionadas aqui futuramente)*
+<p align="center">
+  <img src="imagens/carrinho_compras.png" alt="Carrinho tela" width="600px"/>
+</p>
+<p align="center">
+  <img src="imagens/carrinho_cheio.png" alt="Carrinho Cheio" width="600px"/>
+</p>
 
 ---
 
@@ -68,7 +78,15 @@ Sistema de **carrinho de compras**, responsável por calcular o número de itens
 
 Sistema de **controle de vendas de ingressos**, permitindo registrar e validar a compra de entradas para eventos.  
 
-*(Imagens da aplicação podem ser adicionadas aqui futuramente)*
+<p align="center">
+  <img src="imagens/ingressos.png" alt="Carrinho tela" width="600px"/>
+</p>
+<p align="center">
+  <img src="imagens/ingresos_alert.png" alt="Carrinho Cheio" width="600px"/>
+</p>
+<p align="center">
+  <img src="imagens/ingressos_comprados.png" alt="Carrinho Cheio" width="600px"/>
+</p>
 
 ---
 
@@ -76,7 +94,12 @@ Sistema de **controle de vendas de ingressos**, permitindo registrar e validar a
 
 Sistema de **sorteio de números**, que gera valores aleatórios dentro de um intervalo informado pelo usuário.  
 
-*(Imagens da aplicação podem ser adicionadas aqui futuramente)*
+<p align="center">
+  <img src="imagens/sorteio_numeros.png" alt="Carrinho Cheio" width="600px"/>
+</p>
+<p align="center">
+  <img src="imagens/numeros_sorteados.png" alt="Carrinho Cheio" width="600px"/>
+</p>
 
 ---
 
