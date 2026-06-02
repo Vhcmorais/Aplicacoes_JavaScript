@@ -1,19 +1,19 @@
-# 🧑🏽‍💻 Aplicações em Linguagem JavaScript - ALURA
+# 🧑🏽‍💻 JavaScript Applications - ALURA
 
-Durante o curso de **Lógica para Programação com JavaScript** da Alura, foram propostos diversos desafios práticos para consolidar o conteúdo aprendido.  
+During Alura's **Programming Logic with JavaScript** course, several practical challenges were proposed to reinforce the concepts learned.
 
-Este repositório reúne todos os códigos desenvolvidos ao longo do curso.  
+This repository gathers all the code developed throughout the course.
 
-As aplicações desenvolvidas foram:  
-- **AluGames** → Sistema de aluguel e devolução de jogos de tabuleiro.  
-- **Sorteador de Amigo Secreto** → Sistema que realiza o sorteio automático de amigos secretos.  
-- **Carrinho de Compras** → Sistema que registra a quantidade de produtos e o valor total de uma compra.  
-- **Venda de Ingressos** → Sistema de controle e validação de vendas de ingressos.  
-- **Sorteador de Números** → Sistema que gera números aleatórios dentro de um intervalo definido pelo usuário.  
+The applications developed were:
+- **AluGames** → Board game rental and return management system.
+- **Secret Santa Draw** → System that automatically performs Secret Santa pairings.
+- **Shopping Cart** → System that records product quantities and calculates the total purchase value.
+- **Ticket Sales** → Ticket sales control and validation system.
+- **Number Generator** → System that generates random numbers within a user-defined range.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
 ![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -22,92 +22,93 @@ As aplicações desenvolvidas foram:
 
 ---
 
-## 📂 Estrutura do Repositório
+## 📂 Repository Structure
 
-- 📂 **Alugames/** → Arquivos do sistema de aluguel e devolução de jogos de tabuleiro.  
-- 📂 **Amigo_Secreto/** → Arquivos do sistema de sorteio de amigo secreto.  
-- 📂 **Carrinho_Compras/** → Arquivos do sistema de carrinho de compras.  
-- 📂 **Ingresso/** → Arquivos do sistema de venda de ingressos.  
-- 📂 **Sorteador_Numeros/** → Arquivos do sistema de sorteio de números.  
-
----
-
-## ♟️ Aplicação 1: AluGames
-
-Sistema de **locação e devolução de jogos de tabuleiro**, desenvolvido em **HTML, CSS e JavaScript**.  
-
-<p align="center">
-  <img src="imagens/alugames_aluguel.png" alt="Tela de Aluguel" width="600px"/>
-</p>
-<p align="center">
-  <img src="imagens/alugames_alugado.png" alt="Tela de Jogo Alugado" width="600px"/>
-</p>
-<p align="center">
-  <img src="imagens/alugames_devolucao.png" alt="Tela de Devolução" width="600px"/>
-</p>
+- 📂 **Alugames/** → Files for the board game rental and return system.
+- 📂 **Amigo_Secreto/** → Files for the Secret Santa draw system.
+- 📂 **Carrinho_Compras/** → Files for the shopping cart system.
+- 📂 **Ingresso/** → Files for the ticket sales system.
+- 📂 **Sorteador_Numeros/** → Files for the random number generator system.
 
 ---
 
-## 🫂 Aplicação 2: Sorteador de Amigo Secreto
+## ♟️ Application 1: AluGames
 
-Sistema de **sorteio de amigo secreto**, no qual os nomes são inseridos e o programa sorteia os pares automaticamente.  
+A **board game rental and return system**, developed using **HTML, CSS, and JavaScript**.
 
 <p align="center">
-  <img src="imagens/amigo_secreto.png" alt="Sorteador tela" width="600px"/>
+  <img src="imagens/alugames_aluguel.png" alt="Rental Screen" width="600px"/>
 </p>
 <p align="center">
-  <img src="imagens/amigo_sorteio.png" alt="Amigos Sorteados" width="600px"/>
+  <img src="imagens/alugames_alugado.png" alt="Rented Game Screen" width="600px"/>
+</p>
+<p align="center">
+  <img src="imagens/alugames_devolucao.png" alt="Return Screen" width="600px"/>
 </p>
 
 ---
 
-## 🛒 Aplicação 3: Carrinho de Compras
+## 🫂 Application 2: Secret Santa Draw
 
-Sistema de **carrinho de compras**, responsável por calcular o número de itens e o valor total da compra.  
+A **Secret Santa drawing system**, where names are entered and the program automatically generates the pairings.
 
 <p align="center">
-  <img src="imagens/carrinho_compras.png" alt="Carrinho tela" width="600px"/>
+  <img src="imagens/amigo_secreto.png" alt="Draw Screen" width="600px"/>
 </p>
 <p align="center">
-  <img src="imagens/carrinho_cheio.png" alt="Carrinho Cheio" width="600px"/>
-</p>
-
----
-
-## 🎟️ Aplicação 4: Venda de Ingressos
-
-Sistema de **controle de vendas de ingressos**, permitindo registrar e validar a compra de entradas para eventos.  
-
-<p align="center">
-  <img src="imagens/ingressos.png" alt="Carrinho tela" width="600px"/>
-</p>
-<p align="center">
-  <img src="imagens/ingresos_alert.png" alt="Carrinho Cheio" width="600px"/>
-</p>
-<p align="center">
-  <img src="imagens/ingressos_comprados.png" alt="Carrinho Cheio" width="600px"/>
+  <img src="imagens/amigo_sorteio.png" alt="Draw Results" width="600px"/>
 </p>
 
 ---
 
-## 🔢 Aplicação 5: Sorteador de Números
+## 🛒 Application 3: Shopping Cart
 
-Sistema de **sorteio de números**, que gera valores aleatórios dentro de um intervalo informado pelo usuário.  
+A **shopping cart system**, responsible for calculating the number of items and the total purchase value.
 
 <p align="center">
-  <img src="imagens/sorteio_numeros.png" alt="Carrinho Cheio" width="600px"/>
+  <img src="imagens/carrinho_compras.png" alt="Shopping Cart Screen" width="600px"/>
 </p>
 <p align="center">
-  <img src="imagens/numeros_sorteados.png" alt="Carrinho Cheio" width="600px"/>
+  <img src="imagens/carrinho_cheio.png" alt="Filled Shopping Cart" width="600px"/>
 </p>
 
 ---
 
-## 📌 Considerações Finais
+## 🎟️ Application 4: Ticket Sales
 
-Desenvolver essas aplicações foi um exercício fundamental para **fixar conceitos de lógica de programação e JavaScript**.  
-Cada projeto, apesar de simples, traz uma **base sólida** para aplicações mais complexas no futuro.  
+A **ticket sales management system**, allowing users to register and validate ticket purchases for events.
 
-Se tiver sugestões de melhorias ou quiser contribuir, fique à vontade para abrir uma **issue** ou enviar um **pull request**.  
+<p align="center">
+  <img src="imagens/ingressos.png" alt="Ticket Sales Screen" width="600px"/>
+</p>
+<p align="center">
+  <img src="imagens/ingresos_alert.png" alt="Validation Alert" width="600px"/>
+</p>
+<p align="center">
+  <img src="imagens/ingressos_comprados.png" alt="Purchased Tickets" width="600px"/>
+</p>
 
-✨ *Obrigado por visitar este repositório!* 🚀
+---
+
+## 🔢 Application 5: Number Generator
+
+A **random number generator system** that produces values within a range specified by the user.
+
+<p align="center">
+  <img src="imagens/sorteio_numeros.png" alt="Number Generator Screen" width="600px"/>
+</p>
+<p align="center">
+  <img src="imagens/numeros_sorteados.png" alt="Generated Numbers" width="600px"/>
+</p>
+
+---
+
+## 📌 Final Remarks
+
+Developing these applications was an essential exercise for strengthening **programming logic and JavaScript concepts**.
+
+Although simple, each project provides a **solid foundation** for building more complex applications in the future.
+
+If you have suggestions for improvements or would like to contribute, feel free to open an **issue** or submit a **pull request**.
+
+✨ *Thank you for visiting this repository!* 🚀
